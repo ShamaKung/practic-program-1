@@ -4,11 +4,9 @@ Console.WriteLine("Введите 2-ое число");
 int b = Convert.ToInt32(Console.ReadLine());
 if(a < b)
     {
-        Console.Write("Большее число ");
-        Console.WriteLine(b);
+        Console.Write($"Большее число {b}, меньшее {a}");
     }
 else 
     {
-        Console.Write("Большее число ");
-        Console.WriteLine(a);
+        Console.Write($"Большее число {a}, меньшее {b}");
     }
